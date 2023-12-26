@@ -1,0 +1,240 @@
+
+body {
+    margin: 0;
+    font-family: 'Copperplate', 'Times New Roman', Times, serif;
+    color: black;
+    width: 100%;
+}
+
+h1{
+    font-family: 'Poppins', 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 1.7em;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin: 2em 4.5em 0 0;
+    text-decoration: underline;
+    text-align: end;
+}
+
+h3 {
+    font-size: 1.1em;
+    line-height: 1.2;
+    margin: 2em 0 0 1em;
+}
+
+h4 {
+    text-align: center;
+    margin: 1.4em 0 0 0;
+    font-size: 1.1em;
+}
+
+p {
+    font-family: 'Poppins', 'Helvetica neue','Times New Roman', Times, serif;
+    font-size: 0.6em;
+    margin: 2em 3em 1em 3em;
+}
+
+iframe{
+    width: 90%;
+    height: 22em;
+    display: block;
+    margin: 1em auto 3em auto;
+}
+a img {
+    display: block;
+    height: 2em;
+    margin: 3em auto;
+}
+
+article h1 {
+    font-family: 'Copperplate', 'Helvetica neue','Times New Roman', Times, serif;
+    text-align: left;
+    margin: 1em 0 0.2em 0.5em;
+}
+
+article p {
+    text-align: justify;
+    color: #427A9D;
+    font-size: 0.8em;
+    margin: 0 5em 0 1em;
+}
+
+article img {
+    display: block;
+    width: 95%;
+    height: 15em;
+    margin: 1.2em auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+article p a:visited{
+    color:#427A9D
+}
+
+/* header met nav */
+header {
+    background-color: black;
+}
+
+header img {
+    height: 2.5em;
+    padding: 0.8em;
+    display: block;
+    width: 28%;
+}
+
+nav ul {
+    background-color: white;
+    justify-content: space-around;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0.9em 0;
+}
+
+nav a {
+    color: #427A9D;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:visited {
+    color: #427A9D;
+}
+
+/* overzicht page */
+section {
+    border-radius: 1em;
+    box-shadow: 0.1em 0 2em grey;
+    margin: 0 2em 4em 2em;
+}
+
+section a {
+    color: #000000;
+    text-decoration: none;
+}
+
+section h2{
+    text-decoration: none;
+    font-weight: 400;
+    text-align: center;
+    font-size: 0.8em;
+    font-family:'Poppins','Helvetica neue','Times New Roman', Times, serif;
+    padding: 0.2em 0;
+    margin: 0;
+}
+
+section h3{
+    margin:0;
+}
+
+section p {
+    font-size: 0.7em;
+    line-height: 1.6em;
+    color: #427A9D;
+    margin: 0.5em 0;
+    padding-bottom: 1em;
+}
+
+section figure{
+    margin: 0 2em;
+}
+
+section figcaption {
+    font-size: 0.9em;
+}
+
+section figure img {
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 0.3em;
+    width: 100%;
+    height: 11em;
+}
+
+section a:visited {
+    color: #000000;
+}
+
+/* detailpagina */
+ol {
+    font-family: 'Poppins', 'Helvetica neue','Times New Roman', Times, serif;
+    font-size: 0.9em;
+    margin-bottom: 2em;
+    padding: 0;
+    color: #427A9D;
+    list-style-type: none;
+}
+
+main ul {
+    font-family: 'Poppins','Helvetica neue','Times New Roman', Times, serif;
+    margin-left: 1.5em;
+    margin-bottom: 2em;
+    padding: 0;
+    display: inline-block;
+    color: #427A9D;
+}
+
+main ul li {
+    font-size: 0.8em;
+   margin-left: 0.6em;
+}
+
+article ol:nth-child(2){
+    margin-right: 1.5em;
+}
+
+article ol:last-child{
+    text-align: end;
+    margin-left: 1em;
+}
+
+main > a:last-child {
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 1em 0;
+    border-radius: 0.5em;
+    display: block;
+    width: 50%;
+    margin: 2em auto 4em auto;
+    box-shadow: 0.2em 0 2em #427A9D;
+}
+
+/* footer */
+footer p {
+    font-family: serif;
+    font-size: small;
+    background-color: black;
+    padding: 1.5em;
+    color: white;
+    text-align: end;
+    margin: 2em auto auto auto;
+}
+
+/* id en class elementen */
+.article{
+    display: flex;
+}
+.article img{
+    width: 5em;
+    height: 5.5em;
+    box-shadow: none;
+    margin: 2.5em  2em 0 2em;
+    opacity: 40%;
+}
+
+#img{
+    height: 3.5em;
+    margin-bottom: 1.5em;
+}
+
+
+
+
